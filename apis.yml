@@ -1,8 +1,26 @@
 aid: orionsec
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orionsec.png
 name: Orionsec
-description: 'Orionsec is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Orionsec (ORION Security) is a data loss prevention (DLP) platform that
+  uses AI-powered, context-aware agents to detect and prevent data exfiltration across
+  endpoints, SaaS, web, cloud, email, on-premises systems, storage, and print. Rather
+  than relying on static policies, ORION analyzes data classification, lineage, identity,
+  environment, and external relationships to cut false positives and deploy in minutes.
+  The company is backed by Norwest Venture Partners and IBM Ventures and maintains a
+  public trust center documenting SOC 2, ISO/IEC 27001, HIPAA, and GDPR posture. As
+  of this profile, Orionsec does not publish a public developer API, reference, or
+  documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/orionsec/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Security
+- Data Loss Prevention
+- DLP
+- Cybersecurity
+- Artificial Intelligence
+- Data Protection
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://orionsec.io
+- type: Blog
+  url: https://orionsec.io/blog
+- type: SignUp
+  url: https://orionsec.io/book-a-demo
+- type: Login
+  url: https://app.orionsec.io/login
+- type: TermsOfService
+  url: https://orionsec.io/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://orionsec.io/legal/privacy-policy
+- type: TrustCenter
+  url: security/orionsec-trust-center.yml
+- type: Compliance
+  url: https://trust.orionsec.io/
+- type: DomainSecurity
+  url: security/orionsec-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
