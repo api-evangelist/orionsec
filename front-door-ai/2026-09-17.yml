@@ -1,0 +1,29 @@
+# Front Door AI Index — orionsec — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: orionsec
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: orionsec.io
+  final_host: www.orionsec.io
+  ownership: own
+  owner: orionsec
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 32.36
+  words: 649
+  tiers:
+    agentic: 4
+    core: 17
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 17
+    AI agent: 2
+    agent: 2
+    AI assistant: 1
+    agentic: 1
