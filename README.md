@@ -64,6 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Orionsec is a company surfaced as a portfolio company of norwest-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment pipeline.
+Orionsec (ORION Security) is a data loss prevention (DLP) platform that uses AI-powered, context-aware agents to detect and prevent data exfiltration across endpoints, SaaS, web, cloud, email, on-premises systems, storage, and print. Rather than relying on static policies, ORION analyzes data classification, lineage, identity, environment, and external relationships to cut false positives and deploy in minutes. The company is backed by Norwest Venture Partners and IBM Ventures and maintains a public trust center documenting SOC 2, ISO/IEC 27001, HIPAA, and GDPR posture. As of this profile, Orionsec does not publish a public developer API, reference, or documentation surface.
 
-Backed by: norwest-venture-partners — https://orionsec.io
+**Areas:** Company · Security · Data Loss Prevention · DLP · Cybersecurity · Artificial Intelligence · Data Protection · Compliance
+
+## Orionsec on APIs.io
+
+Everything profiled for Orionsec is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/orionsec/](https://apis.io/providers/orionsec/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [orionsec](https://apis.io/servers/orionsec/orionsec/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Orionsec Domain Security](https://apis.io/security/orionsec/orionsec-domain-security/)
+- [Orionsec Trust Center](https://apis.io/security/orionsec/orionsec-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://orionsec.io)
+- [Sign up](https://orionsec.io/book-a-demo)
+- [Blog](https://orionsec.io/blog)
+- [Compliance](https://trust.orionsec.io/)
+- [Terms of service](https://orionsec.io/legal/terms-of-use)
+- [Privacy policy](https://orionsec.io/legal/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 16.0** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 50.0 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/orionsec/](https://apis.io/providers/orionsec/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Orionsec: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/orionsec/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
